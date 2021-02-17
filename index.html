@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>elliot's journal</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="icon" href="cloud.jpg" type="image/icon type">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelement-and-player.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> ⓔⓛⓛⓘⓞⓣ
+        <div id="player" class="box">
+            <audio controls src="http://stream.zeno.fm/cz4m6dmvqg0uv">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+
+            <audio class="audio" controls="controls">
+            <source type="audio/mpeg" src="http://stream.zeno.fm/cz4m6dmvqg0uv">
+        </audio>
+        </div>
+    </header>
+
+    <div id="wrapper">
+        <div class="entry">
+            <div class="date">
+                <h2>02/17/21</h2>
+            </div>
+            <div class="text">
+                <p>
+                    I have some JS experience, but weirdly, i missed all the introductory lessons and went right to things like APIs and set intervals, so it was nice to actually learn the fundamentals. I never learned how to properly write a function and call it. I used
+                    to always set it to run on DOM load explicitly.
+                    <br> <br>I made a radio station with my friend for fun (inspired by gossipscafe) so i decided to add ours here! I found some weird streaming thing and another odd library for the JS. Its really nice to have a communal experience, we
+                    each tune in randomly throughout the day and its fun to call her and see that shes listening to it at the same time.
+                    <br> I was also thinking about showing a random post on a button click... I might add it...
+                    <br> I also think having a clock and changing to night mode etc is cute but I wanna try implementing some more complex stuff!
+                </p>
+
+            </div>
+        </div>
+        <div class="entry">
+            <div class="date">
+                <h2>02/09/21</h2>
+            </div>
+            <div class="text">
+                <p>
+                    The media query refresher made me think of lukas eigler-harding's (i think it was him?) design of the rhizome net art anthology page is impossible to print (@media print). I think its a super creative way of harnessing these rules to create even more
+                    personality to webpages, if that makes sense.
+                </p>
+                <img src="noprint.jpg">
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">
+                <h2>02/03/21</h2>
+            </div>
+            <div class="text">
+                <p>
+                    Watching the CSS video was interesting to me because they brought up the concept of rules that are dictated by the browser. I struggle with editorial design because it seems like you're starting fresh, I find it much easier to design for the web because
+                    there's always a jumping off point, because certain elements have implied rules. I didn't realize that was the reason I was struggling with editorial design, so seeing that there was a logic to it was fun to recognize. (also, the dynamic
+                    aspect of the web is a part of it. A book can only have one size, but a website can take many different forms)
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">
+                <h2>01/26/21</h2>
+            </div>
+            <div class="text">
+                <p>
+                    ✧ im from new jersey but currently in brooklyn, ny.
+                    <br> ✧ CD major + (almost) a code as a liberal art minor
+
+                    <br>✧ i'm a senior in the CD program so im pretty experienced with HTML, CSS, + JS. im also in a python class + p5.js class so im working on those languages too :-)
+
+                    <br> ✧im in this course to get more comfortable with generative code (JS) and i wanna make cool experiments
+                    <a href="https://www.potatoland.org/riot/">1</a>
+                    <a href="http://toseethewaveasaslidingdoor.com/">2</a>
+                    <a href="https://consecutives.work.damonzucconi.com/?id=ladies-and-gentlemen&break=false&separator=%3Cbr%3E&text_align=center&width=15">3</a>
+
+                    <a href="http://www.openthatwindow.com/">4</a>
+                    <a href="https://jodi.org/">honorable mention</a>
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script>
+        $('audio').mediaelementplayer({
+            features: ['playpause']
+        });
+    </script>
+</body>
+
+</html>
