@@ -1,0 +1,51 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .content {
+        background-image: url("pixel/19.png");
+        background-position: stretch;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        /* position: fixed; */
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    button {
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+    }
+    
+    img {
+        max-width: 200px;
+        max-height: 200px;
+        filter: hue-rotate(330deg);
+        opacity: .5;
+        /* filter: invert(20); */
+        /* transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(43deg); */
+    }
+    
+    .hand {
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+    }
+    
+    .remove {
+        height: 100px;
+        width: 100px;
+        background-color: magenta;
+    }
+    
+    input {
+        display: none;
+    }
+    
+    .pic {
+        position: absolute;
+    }
