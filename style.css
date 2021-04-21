@@ -1,21 +1,24 @@
 body {
     font-family: sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(225, 226, 227);
     color: blue;
     line-height: .97;
 }
 
 header {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.4em;
     position: fixed;
     right: 10px;
     bottom: 100px;
     padding: 20px;
+    text-align: center;
+    letter-spacing: 2.3px;
 }
 
 h2 {
     background-color: blue;
-    color: aliceblue;
+    color: rgb(225, 226, 227);
     font-size: 1em;
     text-decoration: none;
     font-weight: 400;
@@ -149,8 +152,13 @@ span {
         width: 100%;
     }
     header {
+        display: none;
         position: relative;
-        margin-top: 20px;
+        top: 30px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        width: 100vw;
     }
     .entry {
         box-shadow: 5px 5px 15px blue;
