@@ -11,6 +11,8 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+    <script src="script.js"></script>
 
     <!--https://firebase.google.com/docs/web/setup#available-libraries -->
     <script>
@@ -30,12 +32,29 @@
         db.settings({
             timestampsInSnapshots: true
         });
+
+
+
+        // Set the configuration for your app
+        // TODO: Replace with your project's config object
+        var database = firebase.database();
     </script>
+
     <script src="app.js" defer></script>
+    <script src="gathering.js" defer></script>
+
 </head>
 
 <body>
+
+    <div id="landing">
+        <div id="landtext">
+            <p>Hi welcome to elliots room, <br>lets hang out in cyberspace!</p>
+            <p>enter</p>
+        </div>
+    </div>
     <div class="content">
+        <div id="online">X USERS ARE ONLINE</div>
         <form id="add-cafe-form">
             <input type="text" name="name" placeholder="input">
             <input type="text" name="city" placeholder="input">
@@ -45,7 +64,7 @@
         <div id="cafe-list"></div>
         <!-- <div id="one">HELLOOO</div> -->
     </div>
-    <!-- <script src="script.js"></script> -->
+
 </body>
 
 </html>

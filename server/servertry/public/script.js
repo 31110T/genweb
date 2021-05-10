@@ -8,6 +8,8 @@ function randomizeImage() {
 randomizeImage()
 
 
+
+
 // var i = 1;
 // var append1Function = setInterval(function() {
 //     var rando = Math.floor(Math.random() * 10) + 1;
